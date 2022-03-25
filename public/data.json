@@ -1,0 +1,74 @@
+[
+    {
+        "id": "623ddfc8a20d276abba46573",
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Acer%20Predator%20Triton.jpg",
+        "name": "Acer Predator Triton",
+        "price": 1599
+    },
+    {
+        "id": "623ddfc895766c748fa71221",
+        "price": 1249,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Apple%20MacBook%20Air%20M1%202020.jpg",
+        "name": "Apple MacBook Air M1(2020)"
+    },
+    {
+        "id": "623ddfc85ded6ce066e21da5",
+        "price": 389.99,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/AcerAspire515A51556.jpg",
+        "name": "Acer Aspire 5 15 A51556"
+    },
+    {
+        "id": "623ddfc8e16ee7f5dde1aaac",
+        "price": 2499,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Apple%20MacBook%20Pro%2016%202021.jpg",
+        "name": "MacBook Pro 16(2021)"
+    },
+    {
+        "id": "623ddfc86a4519da11824bd2",
+        "price": 1499,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Asus%20ROG%20Strix%20G15.jpg",
+        "name": "Asus ROG Strix G15"
+    },
+    {
+        "id": "623ddfc8039c637eb213d67f",
+        "price": 229,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Asus%20VivoBook%2014%20F415EA.jpg",
+        "name": "Asus VivoBook 14 F415EA"
+    },
+    {
+        "id": "623ddfc811e9151e311ea987",
+        "price": 1399,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Clevo%20PC50DD2.jpg",
+        "name": "Clevo PC50DD2"
+    },
+    {
+        "id": "623ddfc8c3f01913a490125b",
+        "price": 549.99,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/HP%2014t-dq2.jpg",
+        "name": "HP 14t-dq2"
+    },
+    {
+        "id": "623ddfc8e596f15b16669d50",
+        "price": 299,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/hpChromeBook.jpg",
+        "name": "HP Chrome Book"
+    },
+    {
+        "id": "623ddfc8bf9f2427b92f6d8e",
+        "price": 446,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Lenovo%20Ideapad%203%2015%20ITL.jpg",
+        "name": "Lenevo Ideapad 2015"
+    },
+    {
+        "id": "623ddfc8c74689e6ec32ff94",
+        "price": 619.99,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/msiMorden14b5m.jpg",
+        "name": "MSI Mordern 14b5m"
+    },
+    {
+        "id": "623ddfc839acf2e546f4ccab",
+        "price": 2800,
+        "img": "https://radiant-gnome-8ffc4a.netlify.app/assets/Razer%20Blade%2014%202021.jpg",
+        "name": "Razer Blade 14 2021"
+    }
+]
