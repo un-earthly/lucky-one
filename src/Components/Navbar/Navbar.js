@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div>
+        <div >
             <nav className="navbar container" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand is-justify-content-center is-align-items-center">
                     <a className="navbar-item">

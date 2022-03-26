@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Card from '../Card/Card'
 import Cart from '../Cart/Cart';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash, faRefresh, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons';
 export default function Shop() {
   const [det, setDet] = useState([]);
   const [cardData, setCardData] = useState([]);
@@ -19,14 +20,15 @@ export default function Shop() {
     return Math.random() * (mx - mn) + mn;
   }
   function setDetOnclick() {
-    cart.length <= 4 ? setDet(cart[Math.floor(random(1, 5)) - 1])
-      : setDet('please choose somthing ')
+    cart.length === 4 ? setDet(cart[Math.floor(random(1, 5)) - 1])
+      : setDet('')
   }
   const erase = () => {
     setCart([])
     setDet([])
   }
-  console.log(det.name)
+  const removeOne = (pd) => {
+  }
   return (
     <div className="shop container">
       <div className="laptop">
@@ -45,23 +47,28 @@ export default function Shop() {
         }
 
       </div>
-      <div className="cart">
-        <div className="cartHolder">
+      <div className="cart box px-2 py-4">
+        <div className="cart-holder has-text-centered">
           {
             cart.map((pd) => {
               return <Cart
                 name={pd.name}
                 img={pd.img}
                 key={pd.id}
+                removeOne={removeOne}
               />
             })
           }
-
-          <div className="buttons">
-            <button className="button is-info" onClick={setDetOnclick}>Choose For Me</button>
-            <button className="button is-info" onClick={erase}>Choose Again</button>
+          <small className='is-size-7'>Choose Four Only</small>
+          <div className="buttons is-align-items-center is-justify-content-center">
+            <button className="button is-dark is-small" onClick={setDetOnclick}>Select one
+              <span className="m-2"> <FontAwesomeIcon icon={faWandMagicSparkles} /></span>
+            </button>
+            <button className="button is-dark is-small" onClick={erase}>Reset
+              <span className="m-2"> <FontAwesomeIcon icon={faRefresh} /></span>
+            </button>
           </div>
-          <p className='is-size-4 is-color-info'>Chosen for you : {det.name}</p>
+          <p className='is-size-6 is-color-info'>Chosen for you : {det.name} </p>
         </div>
       </div>
     </div>
