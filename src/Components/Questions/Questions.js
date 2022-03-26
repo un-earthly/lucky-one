@@ -5,7 +5,7 @@ export default function Questions() {
         <div className="container p-2">
 
             <div className="q1">
-                <h2 className="has-text-primary-dark has-text-centered">
+                <h2 className="has-text-primary-dark has-text-centered is-size-2">
                     How React Works?
                 </h2>
                 <p className="has-text-primary">
@@ -19,7 +19,7 @@ export default function Questions() {
                 </p>
             </div>
             <div className="q2">
-                <h2 className="has-text-primary-dark has-text-centered">
+                <h2 className="has-text-primary-dark has-text-centered is-size-2">
                     Props Vs State
                 </h2>
                 <p className="has-text-primary">
