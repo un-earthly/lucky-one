@@ -6,6 +6,23 @@
 @import "../node_modules/bulma/sass/helpers/_all.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";
 @import "../node_modules/bulma/sass/utilities/_all.sass";
+.navbar-item{
+    color:$turquoise;
+}
+.button.is-success{
+    background-color:$turquoise;
+}
+.transition{
+    transition: 0.5s;
+}
+a.navbar-item:hover{
+    background-color:$dark;
+    color:$turquoise;
+    border-radius: 5px;
+}
+.navbar-item{
+    color:$turquoise;
+}
 .shop{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -37,5 +54,11 @@
     .laptop{
     display:grid;
     grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (min-width:669px)and (max-width:999px) {
+    .laptop{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
     }
 }

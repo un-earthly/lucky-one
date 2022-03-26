@@ -30,8 +30,8 @@ export default function Shop() {
   const removeOne = (pd) => {
   }
   return (
-    <div className="shop container">
-      <div className="laptop">
+    <div className="shop container transition">
+      <div className="laptop transition">
         {
           cardData.map(data => {
             return <Card
@@ -47,8 +47,8 @@ export default function Shop() {
         }
 
       </div>
-      <div className="cart box px-2 py-4">
-        <div className="cart-holder has-text-centered">
+      <div className="cart box px-2 py-4 transition">
+        <div className="cart-holder has-text-centered transition">
           {
             cart.map((pd) => {
               return <Cart
@@ -59,16 +59,16 @@ export default function Shop() {
               />
             })
           }
-          <small className='is-size-7'>Choose Four Only</small>
-          <div className="buttons is-align-items-center is-justify-content-center">
-            <button className="button is-dark is-small" onClick={setDetOnclick}>Select one
+          <small className='is-size-7 transition'>Choose Four Only</small>
+          <div className="buttons is-align-items-center is-justify-content-center transition">
+            <button className="button is-success is-small transition" onClick={setDetOnclick}>Select one
               <span className="m-2"> <FontAwesomeIcon icon={faWandMagicSparkles} /></span>
             </button>
-            <button className="button is-dark is-small" onClick={erase}>Reset
+            <button className="button is-success is-small transition" onClick={erase}>Reset
               <span className="m-2"> <FontAwesomeIcon icon={faRefresh} /></span>
             </button>
           </div>
-          <p className='is-size-6 is-color-info'>Chosen for you : {det.name} </p>
+          <p className='is-size-6 is-color-info transition'>Chosen for you : {det.name} </p>
         </div>
       </div>
     </div>
